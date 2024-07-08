@@ -1,0 +1,593 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+*{ 
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+body{
+
+    font-family: "Merriweather", serif;
+
+}
+/* header area style start */
+.banner{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url("../images/Banner\ Image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-height: 500px;
+    margin:20px auto;
+    max-width: 1100px;
+    border-radius: 10px;
+}
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.banner-content p{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+}
+.banner-content h1{
+    color: rgb(255, 255, 255);
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    letter-spacing: 0%;
+}
+/* header area style end here */
+
+/* main area style start here */
+main{
+    margin: 40px auto;
+    width: 1100px;
+}
+
+
+.first-section{
+    margin-bottom: 80px
+}
+.first-section-img{
+    width: 70%;
+    margin: 0 auto;
+}
+.first-section-img > img{
+    width: 100%;
+}
+
+.extra-font{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 80px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.first-section p{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.first-section h3{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+/* second section style start here  */
+.second-section{
+    background-image:linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url("../images/Vectorrr.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    margin-bottom: 90px;
+    height: 500PX;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+.second-section-content{
+    width: 50%;
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+.img > img{
+    width: 250px;
+}
+.second-section-content h1{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 54px;
+    font-weight: 800;
+    line-height: 88px;
+}
+.second-section-content p{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 20px;
+
+}
+
+
+
+
+.btn-2{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* second section style end here  */
+
+/* place section area style start here */
+.place-details{
+    margin-bottom: 80px;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+}
+
+.place-info{
+    width: 600px;
+    margin: 0 auto;
+    padding: 100px 0;
+    text-align: center;
+}
+.place-info > p{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 31px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+.colr{
+    color: rgb(255, 0, 0);
+}
+
+.place-info-btn{
+    border-radius: 8px;
+    background: rgb(255, 0, 0);
+    padding: 16px 28px;
+    margin-top: 70px;
+    border: none;
+    color: white;
+    font-family: Inter;
+    font-size: 20px;  
+    cursor: pointer;
+    transition: 0.7s;  
+}
+.place-info-btn:hover{
+    background-color: brown;
+    color: rgb(0, 0, 0);
+}
+
+/* place section area style close here */
+
+/* fourth section area style start here  */
+
+.fourth{
+ margin-bottom: 90px;
+}
+
+.fourth-items{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 70px;
+}
+.fourth-item8{
+    width: 28%;
+}
+.fourth-item8 h6{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+}
+.fourth-item8 h1{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.fourth-item8 h2{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 40px;
+    margin: 20px 0;
+    font-weight: 700;
+}
+
+.fourth-item8 p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+
+}
+.forth-item-img{
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;    
+}
+.ink{
+    height: 350px;
+    width: 350px;
+    box-sizing: border-box;
+    border: 13px solid rgb(255, 0, 0);
+    border-radius: 50%;
+    position: relative;
+}
+.ink .fourth-item-img2{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 34px;
+    left: 34px;
+}
+
+.ink > .fourth-item-img2 > img{
+    width: 100%;
+}
+
+/* fourth section area style end here  */
+
+
+/* holiday section area style start here */
+
+.holiday{
+    position: relative;
+    margin: 50px 0 80px 0;
+    height:650px;
+    width: 1100px;
+}
+
+.holiday-text{
+    height: 160px;
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.holyday-text h5{
+    color: rgba(7, 2, 17, 0.034);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.holiday-text h1{
+    font-family: Merriweather;
+    font-size: 45px;
+    font-weight: 900;
+    margin: 12px 0;
+  
+}
+.holiday-text p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+}
+.holiday-content{
+    margin-top: 30px;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.holiday-gift{
+    position: relative;
+    top: 50px;
+    width: 40%;
+}
+.holiday-gift > img{
+    width: 100%;
+}
+.holiday-buy{
+    position: relative;
+    bottom: -2px;
+    width: 37%;
+}
+.holiday-buy > img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.discount{
+    position: absolute;
+    right: 344px;
+    bottom: 140px;
+    width: 190px;
+}
+.discount > img{
+    width: 100%;
+}
+  
+
+
+.holiday-footer{
+    position: absolute;
+    width:1100px;
+    z-index: -1;
+    bottom: 1px;
+}
+.holiday-footer > img{
+    height:110px;
+    width: 100%;
+}
+
+/* holiday section area style end here */
+
+/* portfolio section are style start here */
+.portfolio{
+  padding: 20px 0;
+  box-sizing: border-box;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.portfolio-text h5{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 600;
+   
+}
+.portfolio-text h2{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    text-transform: capitalize; 
+    margin: 12px 0;
+   
+}
+.potfolio-text p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    box-sizing: border-box;
+    font-weight: 400;
+}
+
+.portfolio-content{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 10px;
+}
+.portfolio-product{
+   width: 350px;
+   
+}
+.portfolio-product > img{
+    width: 100%;
+    height:270px ;
+}
+/* portfolio section are style end here */
+
+/* form section area style start here */
+.form-area{
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);  
+}
+.form-area-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 800px;
+    padding: 40px 0;
+    box-sizing: border-box;
+}
+.imgs{
+    width: 100px;
+    height: 100px;
+}
+
+.form-area-content h3{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 60px;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 24px 0;
+}
+.form-area-content p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+
+.information-form{
+    display: flex;
+    height: 60px;
+    width: 450px;
+    align-items: baseline;
+    justify-content: center;
+}
+.information-form input[type="email"]{
+    color: rgba(7, 2, 17, 0.3);
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    padding: 15px 25px;
+    margin-top: 20px;
+    width:100%;
+    border: none;
+    border-radius: 50px 0 0 50px;
+}
+.information-form input[type="email"]::placeholder{
+    color: rgba(7, 2, 17, 0.3);
+    font-family: Inter;
+}
+.btn-subs{
+    padding: 0 15px;
+    color: white;
+    border: none;
+    border-radius: 0 50px 50px 0;
+    background-color: rgb(255, 0, 0);
+    height: 45px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.btn-subs:hover{
+    background-color: blueviolet;
+}
+
+
+
+
+/* form section area style end here */
+
+/* footer section area style strt here */
+.footer-area{
+    margin: 20px auto;
+    width: 1100px;
+    height: 500px;
+    background: rgb(7, 2, 17);
+    border-radius: 5px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 180px;
+    width: 800px;
+    margin: 0 auto;
+}
+.left-side{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+
+}
+
+.right-side p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.right-side p a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+
+}
+.right-side p img{
+    width: 20px;
+}
+
+.footer-icon{
+    width: 300px;
+    margin: 0 auto;
+}
+.footer-icon img{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+hr{
+    width: 800px;
+    margin: 40px auto;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    
+}
+.footer-text{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   color: aliceblue;
+   width: 800px;
+   margin: 0 auto;
+   margin-top: 50px;
+}
+.footer-text p{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+}   
+
+.footer-text span{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500; 
+    margin-right: 40px; 
+    padding: 5px 10px ;
+    border:none;
+    transition: 0.7s;
+   
+}
+
+.footer-text span:hover{
+    background-color: aqua;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* footer section area style end here */
